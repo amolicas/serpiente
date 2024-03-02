@@ -23,3 +23,13 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "amolicas_serpiente_527245d3-1d7d-4e43-9499-4df9d0734214"
+    property "sonar.projectName", "serpiente"
+  }
+}
