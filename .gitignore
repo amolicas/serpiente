@@ -1,15 +1,20 @@
-*.iml
-.gradle
+# Directorios de compilación y dependencias
+/build/
+.gradle/
+.idea/workspace.xml
+.idea/misc.xml
+.idea/libraries/
+
+# Archivos de configuración del usuario
 /local.properties
-/.idea/caches
-/.idea/libraries
+
+# Archivos de caché
+/.cxx/
+/.externalNativeBuild/
+/captures/
+/output.json
+
+# Configuración específica del IDE
 /.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+/.idea/caches/
+/.idea/inspectionProfiles/
