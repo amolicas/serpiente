@@ -1,6 +1,7 @@
 # Directorios de compilación y dependencias
 /build/
 .gradle/
+.idea
 .idea/workspace.xml
 .idea/misc.xml
 .idea/libraries/
