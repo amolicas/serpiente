@@ -1,6 +1,4 @@
 # Directorios de compilación y dependencias
-/build/
-/release/
 .gradle/
 .idea
 .idea/workspace.xml
